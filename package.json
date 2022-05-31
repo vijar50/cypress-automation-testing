@@ -1,0 +1,21 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "Cypress test suite",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "cypress open TAGS=\"not @ignore\"",
+    "cyrun": "cypress run TAGS=\"not @ignore\""
+  },
+  "author": "me",  
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "features"
+  }
+}

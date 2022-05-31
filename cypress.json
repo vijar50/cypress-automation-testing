@@ -1,0 +1,9 @@
+{
+    "testFiles": "**/*.feature",
+    "integrationFolder": "features",
+    "pluginsFile": "plugins/index.js",
+    "fileServerFolder": ".",
+    "nodeVersion": "system",
+    "supportFile": false,
+    "fixturesFolder": false
+}
